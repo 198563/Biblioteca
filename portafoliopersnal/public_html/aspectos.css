@@ -1,0 +1,174 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 26 jul. 2024, 20:27:09
+    Author     : EQUIPO2
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.principal{
+    text-align: center;
+    font-family: open-sans;
+   
+}
+.menu li{
+    aling-items: center;
+}
+.icon{
+    width: 32px;
+    height: 32px;
+    padding:5px;
+}
+.portada{
+    background-size: cover;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1604866830893-c13cafa515d5?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGJpYmxpb3RlY2F8ZW58MHx8MHx8fDA%3D);
+    width: 100%;
+    height: 400px;
+
+}
+.trabalengua{
+    width: 300px;
+    height: 200px;
+    padding: 5px;
+}
+.img{
+    position: center;
+}
+.card-title{
+    font-size: 20pt;
+    font-family: open-sans;
+}
+.card-text{
+    font-size: 15pt;
+    font-family: open-sans;
+}
+.seccion{
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+}
+.list.item{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: open-sans;
+    align-content: space-around;
+}
+.presentacion{
+    padding: 40px;
+}
+.basic{
+    width: 100%;
+    height: 100px;
+    background: #083a6a;
+}
+.pie{
+    text-align: center;
+    font-family: open-sans;
+}
+.service{
+    width: 32px;
+    height: 32px;
+}
+.datos{
+    width: 32px;
+    height: 32px;
+}
+.social{
+    margin-left: auto;
+}
+.card-body{
+    background-color:#20908f;
+    padding: 5px;
+}
+.container{
+    text-align: center;
+    font-family: open-sans;
+}
+
+.card .card-header{
+    padding: 10px;
+}
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #25D366;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  animation: breathe 2s ease-in-out infinite;
+}
+
+/*Estilos solo al icono whatsapp*/
+.whatsapp-btn i {
+  color: #fff;
+  font-size: 24px;
+  animation: beat 2s ease-in-out infinite;
+  text-decoration: none;
+}
+
+/*Estilos con animation contorno respirando*/
+@keyframes breathe {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+  }
+  70% {
+    box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+}
+
+/*Estilos de animacion del icono latiendo*/
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+
+.card{
+    display:flex;
+}
+.videos{
+    width: 100%;
+    height: 600px;
+    background: #20908f;
+    padding: 20px;
+    display: absolute;
+    
+}
+.historia{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 3s;
+    transition-duration: 3s;
+}
+.lenguas{
+    text-align: center;
+    font-family: open-sans;
+}
